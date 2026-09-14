@@ -81,17 +81,13 @@ header a {
   }
 }
 
-/* Dynamic Site-Wide Translucent Background for Dynamic Column Beam FX */
+/* Restore Original Section Background Themes */
 .bg-\[\#030712\] {
-  background-color: rgba(3, 7, 18, 0.72) !important;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  background-color: #030712 !important;
 }
 
 [data-theme='light'] .bg-\[\#030712\] {
-  background-color: rgba(248, 250, 252, 0.75) !important;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  background-color: #F8FAFC !important;
 }
 
 [data-theme='light'] .bg-\[\#090D16\] {

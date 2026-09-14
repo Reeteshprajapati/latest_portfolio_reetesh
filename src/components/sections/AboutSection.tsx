@@ -27,7 +27,7 @@ export function AboutSection() {
   ];
 
   return (
-    <section id="about" className="bg-[#030712]/70 text-slate-100 px-6 md:px-10 py-20 md:py-28 relative border-b border-slate-800/80 backdrop-blur-[2px]">
+    <section id="about" className="bg-[#030712] text-slate-100 px-6 md:px-10 py-20 md:py-28 relative border-b border-slate-800/80">
       <div className="max-w-7xl mx-auto">
         <FadeIn delay={0} y={15} className="mb-12">
           <p className="text-xs font-mono uppercase tracking-widest text-slate-400 mb-1.5">
