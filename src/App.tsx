@@ -6,6 +6,7 @@ import {
   ExperienceSection,
   SkillsSection,
   ProjectsSection,
+  GithubShowcaseSection,
   EducationSection,
   FooterSection,
 } from '@/components/sections';
@@ -35,6 +36,7 @@ export default function App() {
           <ExperienceSection />
           <SkillsSection />
           <ProjectsSection />
+          <GithubShowcaseSection />
           <EducationSection />
           <FooterSection />
 

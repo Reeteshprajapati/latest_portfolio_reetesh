@@ -59,7 +59,7 @@ export function HeroSection({ onOpenSearch, onOpenResume, onOpen3D }: HeroSectio
 
           {/* Navigation Links */}
           <nav className="hidden lg:flex items-center gap-1 p-1 rounded-xl navbar-pill-container text-xs font-mono">
-            {['About', 'Experience', 'Skills', 'Projects', 'Education', 'Contact'].map((item) => (
+            {['About', 'Experience', 'Skills', 'Projects', 'GitHub', 'Education', 'Contact'].map((item) => (
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
