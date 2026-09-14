@@ -50,10 +50,6 @@ export function HeroSection({ onOpenSearch, onOpenResume, onOpen3D }: HeroSectio
             <div>
               <div className="text-xs sm:text-sm font-bold tracking-tight navbar-brand-title font-outfit flex items-center gap-1.5">
                 <span>{personalDetails.name}</span>
-                <span className="px-2 py-0.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-[10px] text-emerald-600 dark:text-emerald-400 font-sans hidden sm:inline-flex items-center gap-1">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 dark:bg-emerald-400 animate-ping" />
-                  Available
-                </span>
               </div>
               <p className="text-[10px] navbar-brand-sub font-mono hidden md:block">
                 Full-Stack SDE &bull; Java &bull; Spring Boot &bull; React 19

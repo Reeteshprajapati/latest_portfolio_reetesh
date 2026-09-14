@@ -40,7 +40,7 @@ export function AboutSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
           <FadeIn delay={0.15} y={15} className="lg:col-span-7 flex">
-            <div className="p-8 rounded-2xl bg-[#090D16]/90 border border-slate-800 shadow-xl space-y-5 w-full flex flex-col justify-between backdrop-blur-md">
+            <div className="p-8 rounded-2xl bg-[#090D16] border border-slate-800 shadow-xl space-y-5 w-full flex flex-col justify-between">
               <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6 pb-4 border-b border-slate-800/80">
                 <div className="w-24 h-24 rounded-2xl bg-gradient-to-tr from-indigo-500 via-sky-400 to-emerald-400 p-[2.5px] shadow-lg flex-shrink-0 relative overflow-hidden group">
                   <img
