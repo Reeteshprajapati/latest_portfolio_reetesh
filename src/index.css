@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@500;600;700&family=Fira+Code:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
 @import 'tailwindcss';
 
 :root {
@@ -30,21 +30,25 @@ header a {
   cursor: pointer !important;
 }
 
-/* Executive Professional Font Utility Classes */
+/* Luxury Tech Font Utility Classes */
+.font-sora {
+  font-family: 'Sora', -apple-system, BlinkMacSystemFont, sans-serif !important;
+}
+
 .font-outfit {
-  font-family: 'Outfit', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Sora', 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 .font-grotesk {
-  font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Space Grotesk', 'Sora', sans-serif !important;
 }
 
 .font-sans {
-  font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif !important;
 }
 
 .font-mono {
-  font-family: 'JetBrains Mono', monospace !important;
+  font-family: 'Fira Code', 'JetBrains Mono', monospace !important;
 }
 
 @layer base {
@@ -69,7 +73,7 @@ header a {
   select,
   label,
   li {
-    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -81,15 +85,16 @@ header a {
   h4,
   h5,
   h6 {
-    font-family: 'Outfit', 'Plus Jakarta Sans', sans-serif !important;
-    letter-spacing: -0.025em;
+    font-family: 'Sora', 'Plus Jakarta Sans', sans-serif !important;
+    letter-spacing: -0.028em;
+    font-weight: 700;
   }
 
   code,
   pre,
   kbd,
   samp {
-    font-family: 'JetBrains Mono', monospace !important;
+    font-family: 'Fira Code', 'JetBrains Mono', monospace !important;
   }
 
   [data-theme='dark'] body,
