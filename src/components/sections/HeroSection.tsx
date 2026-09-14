@@ -131,11 +131,12 @@ export function HeroSection({ onOpenSearch, onOpenResume, onOpen3D }: HeroSectio
           </FadeIn>
 
           <FadeIn delay={0.2} y={15}>
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-white leading-[1.1] font-outfit">
               Reetesh Prajapati
             </h1>
-            <p className="text-xl sm:text-2xl font-semibold text-slate-400 mt-2">
-              Full-Stack Developer &bull; <span className="text-slate-200">Java, Spring Boot & React.js</span>
+            <p className="text-xl sm:text-2xl font-semibold text-slate-400 mt-2 font-sans flex items-center gap-2 flex-wrap">
+              <span>Full-Stack Developer &bull;</span>
+              <span className="text-indigo-600 dark:text-indigo-400 font-signature text-2xl sm:text-3xl">Java, Spring Boot & React.js</span>
             </p>
           </FadeIn>
 

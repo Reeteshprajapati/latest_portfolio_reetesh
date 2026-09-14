@@ -29,13 +29,18 @@ export function AboutSection() {
   return (
     <section id="about" className="bg-[#030712] text-slate-100 px-6 md:px-10 py-20 md:py-28 relative border-b border-slate-800/80">
       <div className="max-w-7xl mx-auto">
-        <FadeIn delay={0} y={15} className="mb-12">
-          <p className="text-xs font-mono uppercase tracking-widest text-slate-400 mb-1.5">
-            Overview
-          </p>
-          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-outfit">
-            About Me
-          </h2>
+        <FadeIn delay={0} y={15} className="mb-12 flex flex-col sm:flex-row sm:items-end justify-between gap-3">
+          <div>
+            <p className="text-xs font-mono uppercase tracking-widest text-slate-400 mb-1.5">
+              Overview
+            </p>
+            <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white font-outfit">
+              About Me
+            </h2>
+          </div>
+          <span className="font-cursive text-2xl text-indigo-600 dark:text-indigo-400 font-bold">
+            ~ Crafting software with passion & precision
+          </span>
         </FadeIn>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-stretch">
